@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Gregory's Blog"
-  site-url: https://dreamcorestudios.com
+  site-url: https://glizcorp.com
   description: "This is Gregory's Personal Blog."
   navbar:
     right:
