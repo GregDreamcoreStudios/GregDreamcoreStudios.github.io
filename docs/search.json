@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "GregsBlog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 26, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 23, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nThe Tech Talent Shuffle: Redrawing Silicon Valley’s Job Map\n\n\nDo hiring anomalies in Big Tech suggest they’re taking non-Analytical employees for granted?\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nGregory Sharma\n\n\n\n\n\n\n\n\n\n\n\n\nThis is a dummy blog posts\n\n\n\n\n\n\n123\n\n\nSecond Tag\n\n\n\nThis is a test post. In this post, I try out different functionalities\n\n\n\n\n\nJun 1, 2022\n\n\nAlbert Rapp\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 26, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Date List for Katya and Greg\n\n\nDates for Each Season of the Year\n\n\n\n\n\n\n\n\nJan 26, 2024\n\n\nGregory Sharma\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 23, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nThe Tech Talent Shuffle: Redrawing Silicon Valley’s Job Map\n\n\nDo hiring anomalies in Big Tech suggest they’re taking non-Analytical employees for granted?\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nGregory Sharma\n\n\n\n\n\n\n\n\n\n\n\n\nThis is a dummy blog posts\n\n\n\n\n\n\n123\n\n\nSecond Tag\n\n\n\nThis is a test post. In this post, I try out different functionalities\n\n\n\n\n\nJun 1, 2022\n\n\nAlbert Rapp\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/newsletter/Newsletter.html",
@@ -63,13 +63,6 @@
     "text": "So what?\nIn conclusion, we find a stark prioritization of Engineers and Scientists in big tech hiring, signaling a potential undervaluation or misutilization of Operations and Marketing employees. This shifting focus of the tech industry’s human capital acquisitions may hint at emerging career opportunities, challenges, or increased budget constraints.\n\n\nCode\n# correlation coefficient of sal vs us rank wr.t. job category grouped by year relatively stationary\n# difference in salary w.r.t. rank between big_boys and other companies very close to 0 everywhere, indicating systematic discrimination\n\n# fractionally integrated flow data likely best predictor, such that memory of the integrated series corresponds to the \"effective window\" after which flow changes have impacts on company performance;\n# as count data is non-stationary and is perpetually affected my monthly flows, and on the other hand, monthly flows are \"too recent\" to so quickly affect company performance\n# weighting flows by seniority will likely yield finer, more significant predictors\n\n#oddly, inflow and outflow correlations are not strongly inversely related, indicating that mechanisms by which certain job category workers influence company performance lie beyond that of a naive \"net human capital gain\" in that category\n\n# filling times low for all categories and salary quartiles\n\n# salaries rising for finance and engineer roles\n\n# idea to use average rating per month w.r.t rating question, and infer any relevance of certain subratings on next month flows, to infer things like people leaving due to poor management_ratings, etc.."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "posts/new_blog_post/post.html",
     "href": "posts/new_blog_post/post.html",
     "title": "This is a dummy blog posts",
@@ -96,6 +89,13 @@
     "title": "This is a dummy blog posts",
     "section": "",
     "text": "ggplot(data = gapminder::gapminder, mapping = aes(x = lifeExp, fill = continent)) +\n  stat_density(position = \"identity\", alpha = 0.5)\n\n\n\n\nBla bla bla. This is a caption in the margin. Super cool isn’t it?"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "posts/welcome/index.html",
