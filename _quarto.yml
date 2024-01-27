@@ -5,7 +5,7 @@ project:
 website:
   title: "Gregory's Blog"
   site-url: https://dreamcorestudios.com
-  description: "This is Albert Rapp's personal Blog."
+  description: "This is Gregory's Personal Blog."
   navbar:
     right:
       - text: Blog
@@ -16,7 +16,7 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: theme.scss
+    theme: zephyr
 
 editor: visual
 
