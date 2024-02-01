@@ -2,11 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/post-with-code/index.html",
+      "/posts/todolist-240201/todolist_240201.html",
       "/posts/date_list/date_list.html",
-      "/posts/welcome/index.html",
-      "/posts/newsletter/Newsletter.html",
-      "/posts/new_blog_post/post.html"
+      "/posts/newsletter/Newsletter.html"
     ]
   }
 ]

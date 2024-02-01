@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "GregsBlog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 26, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Date List for Katya and Greg\n\n\nDates for Each Season of the Year\n\n\n\n\n\n\n\n\nJan 26, 2024\n\n\nGregory Sharma\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 23, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nThe Tech Talent Shuffle: Redrawing Silicon Valley’s Job Map\n\n\nDo hiring anomalies in Big Tech suggest they’re taking non-Analytical employees for granted?\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nGregory Sharma\n\n\n\n\n\n\n\n\n\n\n\n\nThis is a dummy blog posts\n\n\n\n\n\n\n123\n\n\nSecond Tag\n\n\n\nThis is a test post. In this post, I try out different functionalities\n\n\n\n\n\nJun 1, 2022\n\n\nAlbert Rapp\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTo-Do List 2024-02-01\n\n\nPlan for the Day!\n\n\n\n\n\n\n\n\nFeb 1, 2024\n\n\nGregory Sharma\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Date List for Katya and Greg\n\n\nDates for Each Season of the Year\n\n\n\n\n\n\n\n\nJan 26, 2024\n\n\nGregory Sharma\n\n\n\n\n\n\n\n\n\n\n\n\nThe Tech Talent Shuffle: Redrawing Silicon Valley’s Job Map\n\n\nDo hiring anomalies in Big Tech suggest they’re taking non-Analytical employees for granted?\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nGregory Sharma\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/newsletter/Newsletter.html",
@@ -63,52 +63,24 @@
     "text": "So what?\nIn conclusion, we find a stark prioritization of Engineers and Scientists in big tech hiring, signaling a potential undervaluation or misutilization of Operations and Marketing employees. This shifting focus of the tech industry’s human capital acquisitions may hint at emerging career opportunities, challenges, or increased budget constraints.\n\n\nCode\n# correlation coefficient of sal vs us rank wr.t. job category grouped by year relatively stationary\n# difference in salary w.r.t. rank between big_boys and other companies very close to 0 everywhere, indicating systematic discrimination\n\n# fractionally integrated flow data likely best predictor, such that memory of the integrated series corresponds to the \"effective window\" after which flow changes have impacts on company performance;\n# as count data is non-stationary and is perpetually affected my monthly flows, and on the other hand, monthly flows are \"too recent\" to so quickly affect company performance\n# weighting flows by seniority will likely yield finer, more significant predictors\n\n#oddly, inflow and outflow correlations are not strongly inversely related, indicating that mechanisms by which certain job category workers influence company performance lie beyond that of a naive \"net human capital gain\" in that category\n\n# filling times low for all categories and salary quartiles\n\n# salaries rising for finance and engineer roles\n\n# idea to use average rating per month w.r.t rating question, and infer any relevance of certain subratings on next month flows, to infer things like people leaving due to poor management_ratings, etc.."
   },
   {
-    "objectID": "posts/new_blog_post/post.html",
-    "href": "posts/new_blog_post/post.html",
-    "title": "This is a dummy blog posts",
+    "objectID": "posts/todolist-240201/todolist_240201.html",
+    "href": "posts/todolist-240201/todolist_240201.html",
+    "title": "To-Do List 2024-02-01",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nlibrary(tidyverse)\n\nggplot(mpg) +\n  geom_jitter(aes(cty, hwy), size = 4, alpha = 0.5) \n\n\n\n\n\n\n\n\n\n\n\n\nTransforming OLS estimatesMaximizing likelihood\n\n\n\n\nCode\npreds_lm %&gt;% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  theme_minimal(base_size = 12) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nglm.mod &lt;- glm(sex ~ body_mass_g + bill_length_mm + species, family = binomial, data = dat)\n\npreds &lt;- dat %&gt;% \n  mutate(\n    prob.fit = glm.mod$fitted.values,\n    prediction = if_else(prob.fit &gt; 0.5, 'male', 'female'),\n    correct = if_else(sex == prediction, 'correct', 'incorrect')\n  )\n\n\npreds %&gt;% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  theme_minimal(base_size = 10) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\[\n\\int_0^1 f(x) \\ dx\n\\]\n\n\n\n\n\ngeom_density(\n  mapping = NULL,\n  data = NULL,\n  stat = \"density\",\n  position = \"identity\",\n  ...,\n  na.rm = FALSE,\n  orientation = NA,\n  show.legend = NA,\n  inherit.aes = TRUE,\n  outline.type = \"upper\"\n)\nstat_density(\n  mapping = NULL,\n  data = NULL,\n  geom = \"area\",\n  position = \"stack\",\n  ...,\n  bw = \"nrd0\",\n  adjust = 1,\n  kernel = \"gaussian\",\n  n = 512,\n  trim = FALSE,\n  na.rm = FALSE,\n  orientation = NA,\n  show.legend = NA,\n  inherit.aes = TRUE\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggplot(data = gapminder::gapminder, mapping = aes(x = lifeExp, fill = continent)) +\n  stat_density(position = \"identity\", alpha = 0.5)\n\n\n\n\nBla bla bla. This is a caption in the margin. Super cool isn’t it?"
+    "text": "2:00 - 3:15 PM: PRL Class at Stern\n6:00 PM: SohoMD Follow Up w/ Dr. Zeoli\nTask 3\nTask 4\nTask 5\n\n\n\n\n\nWant to Go Out w/ Katya in the Evening\nNeed to Pick a Dress w/ Her\nNote 3"
   },
   {
-    "objectID": "posts/new_blog_post/post.html#merriweather",
-    "href": "posts/new_blog_post/post.html#merriweather",
-    "title": "This is a dummy blog posts",
+    "objectID": "posts/todolist-240201/todolist_240201.html#date-thursday-february-1st-2024",
+    "href": "posts/todolist-240201/todolist_240201.html#date-thursday-february-1st-2024",
+    "title": "To-Do List 2024-02-01",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n\nThis is inline code plus a small code chunk.\n\nlibrary(tidyverse)\n\nggplot(mpg) +\n  geom_jitter(aes(cty, hwy), size = 4, alpha = 0.5) \n\n\n\n\n\n\n\n\n\n\n\n\nTransforming OLS estimatesMaximizing likelihood\n\n\n\n\nCode\npreds_lm %&gt;% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  theme_minimal(base_size = 12) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nglm.mod &lt;- glm(sex ~ body_mass_g + bill_length_mm + species, family = binomial, data = dat)\n\npreds &lt;- dat %&gt;% \n  mutate(\n    prob.fit = glm.mod$fitted.values,\n    prediction = if_else(prob.fit &gt; 0.5, 'male', 'female'),\n    correct = if_else(sex == prediction, 'correct', 'incorrect')\n  )\n\n\npreds %&gt;% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  theme_minimal(base_size = 10) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\[\n\\int_0^1 f(x) \\ dx\n\\]"
-  },
-  {
-    "objectID": "posts/new_blog_post/post.html#columns",
-    "href": "posts/new_blog_post/post.html#columns",
-    "title": "This is a dummy blog posts",
-    "section": "",
-    "text": "geom_density(\n  mapping = NULL,\n  data = NULL,\n  stat = \"density\",\n  position = \"identity\",\n  ...,\n  na.rm = FALSE,\n  orientation = NA,\n  show.legend = NA,\n  inherit.aes = TRUE,\n  outline.type = \"upper\"\n)\nstat_density(\n  mapping = NULL,\n  data = NULL,\n  geom = \"area\",\n  position = \"stack\",\n  ...,\n  bw = \"nrd0\",\n  adjust = 1,\n  kernel = \"gaussian\",\n  n = 512,\n  trim = FALSE,\n  na.rm = FALSE,\n  orientation = NA,\n  show.legend = NA,\n  inherit.aes = TRUE\n)"
-  },
-  {
-    "objectID": "posts/new_blog_post/post.html#margin-captions",
-    "href": "posts/new_blog_post/post.html#margin-captions",
-    "title": "This is a dummy blog posts",
-    "section": "",
-    "text": "ggplot(data = gapminder::gapminder, mapping = aes(x = lifeExp, fill = continent)) +\n  stat_density(position = \"identity\", alpha = 0.5)\n\n\n\n\nBla bla bla. This is a caption in the margin. Super cool isn’t it?"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "2:00 - 3:15 PM: PRL Class at Stern\n6:00 PM: SohoMD Follow Up w/ Dr. Zeoli\nTask 3\nTask 4\nTask 5\n\n\n\n\n\nWant to Go Out w/ Katya in the Evening\nNeed to Pick a Dress w/ Her\nNote 3"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About",
+    "title": "Greg’s Blog",
     "section": "",
-    "text": "About this blog"
+    "text": "Gregory Sharma’s Blog on His Reflections as Head Chairman of Gliz Corp."
   }
 ]
